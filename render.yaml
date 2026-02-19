@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: basic-pitch-api
+    env: docker
+    plan: starter  # 無料枠
+    healthCheckPath: /
+    autoDeploy: true
