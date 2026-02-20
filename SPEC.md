@@ -126,6 +126,14 @@ const response = await fetch('https://basic-pitch-api.onrender.com/detect', {
 
 ---
 
+## TODO
+
+- [ ] **Renderにカード登録** → <https://dashboard.render.com/billing>
+- [ ] Render Dashboard から手動でデプロイ、または API 経由でデプロイ（APIキーは別途管理）
+- [ ] デプロイ後、TAB Editor に `BASIC_PITCH_API_URL` を設定
+
+---
+
 ## 変更履歴
 
 | 日付 | 内容 |
